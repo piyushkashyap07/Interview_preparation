@@ -1,0 +1,20 @@
+def chrPat(n):
+    i=1
+    k=0
+    while i <=n:
+        j=1
+        m=ord("A")+k
+        while j<=i:
+            print(chr(m), end="")
+            j+=1
+            m+=1
+        print()
+        i+=1
+        k+=1
+        
+    
+if __name__ == "__main__":
+    n= int(input("enter a number: "))
+    chrPat(n)
+    
+             
