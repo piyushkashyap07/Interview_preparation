@@ -7,6 +7,7 @@ images = [Image.open(path) for path in image_paths]
 # Resize images to fit 500x500
 for i in range(len(images)):
     images[i] = images[i].resize((500, 500), Image.ANTIALIAS)
+print('updated')
 
 # Create a new GIF
 gif_path = "output.gif"
